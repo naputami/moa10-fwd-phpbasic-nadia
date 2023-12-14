@@ -5,7 +5,9 @@
         return strrev($string);
     }
 
-    echo reverseString("Indonesia Raya") . "<br>";
+    $string_sample = "Indonesia Raya";
+
+    echo "$string_sample dibalik menjadi " . reverseString("Indonesia Raya") . "<br>";
 
     //  buat fungsi yang bertujuan untuk menghitung luas segitiga siku-siku
 
